@@ -24,6 +24,6 @@ function realizarDivision() {
       var sumandoa = document.getElementById("sumandoa").value;
       var sumandob = document.getElementById("sumandob").value;
     
-        var resultado = sumandoa + sumandob;
+        var resultado = Number(sumandoa) + Number(sumandob);
         document.getElementById("resultado3").innerHTML = "El resultado de la suma es: " + resultado;
       }
